@@ -14,5 +14,5 @@ for filename in os.listdir(directory):
       dict[feedback_format[i]] = reader[i]
   response = requests.post("http://35.226.84.68/feedback/", json = dict)
   if not response.ok:
-    raise Exception("POST failed with status code {}".format(response.status_code))
-  print("ok.")
+    raise Exception("POST failed with status code {}, file: {}".format(response.status_code, filename))
+  print("POST {} success!".format(filename))
