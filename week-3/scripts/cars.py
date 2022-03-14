@@ -75,7 +75,7 @@ def main(argv):
                    table_data = cars_dict_to_table(data))
   # TODO: send the PDF report as an email attachment
   message = emails.generate(sender = "automation@example.com",
-                            recipient = "student-01-aededdae74cd@example.com",
+                            recipient = "{}@example.com".format(os.environ.get('USER'),
                             subject = "Sales summary for last month",
                             body = '\n'.join(summary),
                             attachment_path = "/tmp/cars.pdf")
