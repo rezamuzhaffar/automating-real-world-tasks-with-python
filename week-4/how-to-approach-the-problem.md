@@ -12,7 +12,7 @@ We're giving you a pretty big project to do at the end of this course -- but you
 
 - [Python Image Library (PIL)](https://pillow.readthedocs.io/en/stable/) - [Tutorial](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)
 - [Requests](https://docs.python-requests.org/en/latest/) (HTTP client library) - [Quickstart](https://docs.python-requests.org/en/master/user/quickstart/)
-- [ReportLab] (PDF creation library)
+- [ReportLab](https://www.reportlab.com/docs/reportlab-userguide.pdf) (PDF creation library)
 - [email](https://docs.python.org/3/library/email.examples.html) (constructing email)
 - [psutil](https://psutil.readthedocs.io/en/latest/) (processes and system utilization)
 - [shutil](https://docs.python.org/3/library/shutil.html) (file operations)
