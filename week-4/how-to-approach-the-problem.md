@@ -11,11 +11,11 @@ We're giving you a pretty big project to do at the end of this course -- but you
 ***Review module documentation!*** You are going to need to use these modules to complete the final project. Reading the documentation takes time, but as you become more familiar with the APIs provided by these modules, it could save you from writing a bunch of custom code that could have just been a call to a module function! Remember, we’ve covered these modules in previous lessons too, so feel free to go back and review them if you need a refresher!
 
 - [Python Image Library (PIL)](https://pillow.readthedocs.io/en/stable/) - [Tutorial](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)
-- Requests (HTTP client library) - Quickstart
-- ReportLab (PDF creation library)
-- email (constructing email)
-- psutil (processes and system utilization)
-- shutil (file operations)
-- smtplib (sending email)
+- [Requests](https://docs.python-requests.org/en/latest/) (HTTP client library) - [Quickstart](https://docs.python-requests.org/en/master/user/quickstart/)
+- [ReportLab] (PDF creation library)
+- [email](https://docs.python.org/3/library/email.examples.html) (constructing email)
+- [psutil](https://psutil.readthedocs.io/en/latest/) (processes and system utilization)
+- [shutil](https://docs.python.org/3/library/shutil.html) (file operations)
+- [smtplib](https://docs.python.org/3/library/smtplib.html) (sending email)
 
 ***Read the lab instructions carefully!*** Following the instructions and implementing your solution to the specifications that you’re given are critical to completing the task, and to being accurately graded!
